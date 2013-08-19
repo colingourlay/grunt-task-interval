@@ -1,0 +1,43 @@
+{
+  "name": "grunt-task-interval",
+  "description": "Runs one or more grunt tasks at specified intervals.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/colingourlay/grunt-task-interval",
+  "author": {
+    "name": "Colin Gourlay",
+    "email": "colin.j.gourlay@gmail.com",
+    "url": "http://colin-gourlay.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colingourlay/grunt-task-interval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colingourlay/grunt-task-interval/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/colingourlay/grunt-task-interval/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
