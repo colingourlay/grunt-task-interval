@@ -2,6 +2,8 @@
 
 > Runs one or more grunt tasks at specified intervals.
 
+[![NPM](https://nodei.co/npm/grunt-task-interval.png)](https://nodei.co/npm/grunt-task-interval/)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
@@ -26,12 +28,10 @@ In your project's Gruntfile, add a section named `task_interval` to the data obj
 grunt.initConfig({
   'task-interval': {
     your_target: {
-      build: {
-        options: {
-          taskIntervals: [
-            {interval: your_time_interval, tasks: ['taskA', 'taskB']}
-          ]
-        }
+      options: {
+        taskIntervals: [
+          {interval: your_time_interval, tasks: ['taskA', 'taskB']}
+        ]
       }
     }
   }
