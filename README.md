@@ -70,3 +70,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 
 0.0.1 - Initial release to npm
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/colingourlay/grunt-task-interval/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
